@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mikeo00.github.io/TO-DO-LIST-in-react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
