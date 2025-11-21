@@ -87,3 +87,40 @@ li{
 li:hover{
     background-color: bisque;
 }
+
+@media screen and (max-width: 350px) {
+    .main {
+        width: 95%;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        width: fit-content;
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 600px) {
+    .main {
+        width: 90%;
+    }
+    li {
+        width: fit-content;
+        font-size: 15px;
+        padding: 9px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .main {
+        width: 99%;
+    }
+    li {
+        width: fit-content;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
